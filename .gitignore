@@ -1,0 +1,12 @@
+# Ignorar archivos .env para proteger claves y credenciales
+*.env
+
+# Ignorar carpetas y archivos comunes no necesarios en el repositorio
+**/logs/**
+**/dags/__pycache__/**
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.vscode/
+.idea/
